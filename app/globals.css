@@ -3,6 +3,7 @@
 @theme {
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
   --font-display: var(--font-oswald), "Arial Narrow", sans-serif;
+  --font-poppins: var(--font-poppins-src), "Poppins", ui-sans-serif, system-ui, sans-serif;
 
   --color-brand: #1fa64f;
   --color-brand-dark: #178a40;
@@ -66,5 +67,19 @@ body {
   }
   50% {
     filter: brightness(1.18);
+  }
+}
+
+/* Background photo that stays put while the section scrolls over it */
+.parallax-bg {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* iOS/Android ignore or janky-render fixed backgrounds; scroll normally there */
+@media (hover: none), (prefers-reduced-motion: reduce) {
+  .parallax-bg {
+    background-attachment: scroll;
   }
 }

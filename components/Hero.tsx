@@ -54,18 +54,18 @@ export default function Hero() {
 
         {/* Headline */}
         <div className="relative z-10 px-4 pb-6 pt-10 sm:px-6 lg:absolute lg:left-[21.9%] lg:top-[19.6%] lg:p-0">
-          <h1 className="flex flex-wrap items-start font-display font-semibold leading-none tracking-[-0.005em] text-white text-[64px] sm:text-[88px] lg:text-[8.75vw]">
+          <p className="flex flex-wrap items-start font-display font-semibold leading-none tracking-[-0.005em] text-white text-[64px] sm:text-[88px] lg:text-[8.75vw]">
             <span>Future</span>
             <SpeedBolt className="mx-[0.1em] mt-[0.1em] h-[0.66em] w-[1.0em] lg:mx-[0.09em] lg:mt-[0.12em] lg:h-[0.83em] lg:w-[1.28em]" />
             <span className="mt-[0.1em] lg:mt-[0.135em]">Charged</span>
-          </h1>
+          </p>
           <p className="mt-4 text-[17px] leading-[1.75] text-white/95 lg:mt-[0.7vw] lg:text-[1.4vw] lg:leading-[1.85]">
             Seamless charging for the electric era.
             <br />
             Built for speed, reliability, and ease.
           </p>
           <a
-            href="#find"
+            href="#products"
             className="mt-6 inline-flex items-center rounded-[6px] bg-[#41c37a] px-6 py-3.5 text-[16px] font-semibold text-white shadow-[0_6px_18px_rgba(18,120,64,0.25)] transition-colors hover:bg-[#33b56b] lg:mt-[1.55vw] lg:px-[1.95vw] lg:py-[1.02vw] lg:text-[clamp(14px,1.18vw,18px)]"
           >
             Start Charging

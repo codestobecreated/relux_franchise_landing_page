@@ -1,5 +1,6 @@
 import Image from "next/image";
-import { ArrowRight, Check, Headset, MapPin } from "lucide-react";
+import { Check, Headset, MapPin } from "lucide-react";
+import { EnquireButton } from "./EnquiryModal";
 
 const PRODUCTS = [
   {
@@ -112,13 +113,7 @@ export default function Products() {
                 ))}
               </ul>
 
-              <a
-                href="#contact"
-                className="mx-[10px] mt-[26px] inline-flex h-[42px] items-center justify-center gap-2 rounded-[7px] bg-[#1fa64f] text-[15px] font-bold text-white transition-colors hover:bg-brand-dark"
-              >
-                Enquire Now
-                <ArrowRight size={18} strokeWidth={2.4} />
-              </a>
+              <EnquireButton model={p.name} className="mx-[10px] mt-[26px] inline-flex h-[42px] items-center justify-center gap-2 rounded-[7px] bg-[#1fa64f] text-[15px] font-bold text-white transition-colors hover:bg-brand-dark" />
             </article>
           ))}
         </div>

@@ -48,18 +48,18 @@ export default function CtaFooter() {
             />
           </div>
           <div className="lg:ml-[52px]">
-            <h2 className="text-[28px] font-bold tracking-[-0.01em] text-white lg:text-[36px]">
-              Ready to Power the Future?
+            <h2 className="max-w-[560px] text-[26px] font-bold leading-[1.25] tracking-[-0.01em] text-white lg:text-[30px]">
+              Interested in exploring franchise opportunities with Relux Electric?
             </h2>
             <p className="mt-2 text-[16px] text-white/90 lg:mt-[6px] lg:text-[18px]">
-              Join Charge&amp;Go and be a part of the electric revolution.
+              Reach out to us today.
             </p>
           </div>
           <a
-            href="#find"
+            href="#products"
             className="inline-flex h-[58px] items-center gap-3 rounded-full bg-gradient-to-b from-[#2fc466] to-[#1ea653] px-10 text-[17px] font-bold text-white shadow-[0_0_24px_rgba(46,200,110,0.35)] transition-[filter] hover:brightness-110 lg:ml-auto lg:mr-[24px] lg:w-[344px] lg:justify-center lg:px-0"
           >
-            Find a Charging Station
+            Enquire Now
             <Send size={20} strokeWidth={2.2} />
           </a>
         </div>
